@@ -3,7 +3,7 @@ var utils = require('./utils')
 var config = require('../config')
 var vueLoaderConfig = require('./vue-loader.conf')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
@@ -24,14 +24,19 @@ module.exports = {
       resolve('src'),
       resolve('node_modules')
     ],
+
+    /*创建路径别名，有了别名之后引用模块更方便，
+      例如import Vue from 'vue/dist/vue.common.js'可以写成 import Vue from 'vue'*/
     alias: {
       'vue$': 'vue/dist/vue.common.js',
       'src': resolve('src'),
       'assets': resolve('src/assets'),
-      'components': resolve('src/components')
+      'components': resolve('src/components'),
+      /*musi-ui路径*/
+      'muse-components': 'muse-ui/src'
     }
   },
-  module: {
+  module: {   
     rules: [
       {
         test: /\.(js|vue)$/,
