@@ -7,3 +7,4 @@
 7.代码格式化： Shift+Alt+F
 8.路径补全：AutoFileName
 9.webpack配置说明：http://www.qdfuns.com/notes/40585/9e2cd48b5ef2c1fc14118eabe67d11bc.html
+10.了解eslint规范代码格式化
