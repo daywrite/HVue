@@ -1,0 +1,70 @@
+.green_h4 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #090;
+}
+.home_bianhua {
+  font-size: 16px;
+  color: #376d92;
+  text-align: left;
+  letter-spacing: 2px;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #ee4433;
+}
+/*全国指数*/
+.stock_container {
+  /*width: 330px;*/
+  /*float: left;*/
+  /*padding-bottom: 13px;*/
+  text-align: center;
+  /*margin-top: 20px;*/
+}
+.indexstyletit {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.indexshowtit {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.price_container {
+  font-weight: bold;
+  font-size: 16px;
+}
+.redshow {
+  color: #ee4433;
+}
+.greenshow {
+  color: #090;
+}
+/**城市**/
+.home_city_list_letter {
+  font-size: 11pt;
+  color: #003399;
+  border: none;
+  color: #006699;
+  border-top: 1px solid #ee4433;
+  cursor: hand;
+  font-style: normal;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  margin: 5px 0px 0px 0px;
+  text-align: center;
+}
+.home_city_list {
+  font-size: 11pt;
+  border-bottom: #93bee2 1px dashed;
+  color: black;
+  cursor: hand;
+  font-style: normal;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  cursor: pointer;
+  margin: 2px 0px 0px 0px;
+}
